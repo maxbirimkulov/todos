@@ -1,0 +1,27 @@
+.todoItem{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.todo-text{
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.important{
+    color: red
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+.form-input{
+    width: 160px;
+    padding-left: 10px;
+}

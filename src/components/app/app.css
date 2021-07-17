@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    background: url("../../img/bgtodo.gif") ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app-container{
+    max-width: 400px;
+    width: 100%;
+    min-height: 250px;
+    background: white;
+    border: 1px solid #999999;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    padding: 20px;
+
+}
+.todos{
+    padding: 20px 0;
+}
+
